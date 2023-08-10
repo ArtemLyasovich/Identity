@@ -1,0 +1,10 @@
+﻿@{
+    if (User.Identity.IsAuthenticated)
+    {
+        <h2>Hello, @ViewBag.UserName!</h2>
+    }
+    else
+    {
+        <h2>Welcome to Our Website!</h2>
+    }
+}
